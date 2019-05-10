@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:diagonal="http://schemas.android.com/apk/res-auto">
+
+
+    <com.github.florent37.diagonallayout.DiagonalLayout
+        android:id="@+id/diagonalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="20dp"
+        android:paddingBottom="128dp"
+        diagonal:diagonal_angle="50"
+        diagonal:diagonal_direction="left"
+        diagonal:diagonal_position="bottom"
+        diagonal:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:elevation="30dp"
+                android:layout_marginLeft="32dp"
+                android:backgroundTint="@color/colorTransparent"
+                android:text="Seller"
+                android:fontFamily="@font/pacifico"
+                android:textColor="@color/colorWhite"
+                android:textSize="56sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/materialBlueGrey900"
+            android:backgroundTint="@color/materialBlueGrey900" />
+
+
+
+        <!-- YOUR CONTENT -->
+
+    </com.github.florent37.diagonallayout.DiagonalLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="56sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/pacifico"
+        android:text="Consumer"
+        diagonal:layout_constraintBottom_toBottomOf="@+id/diagonalLayout"
+        diagonal:layout_constraintEnd_toEndOf="@+id/diagonalLayout" />
+
+
+</android.support.constraint.ConstraintLayout>
