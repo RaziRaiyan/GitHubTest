@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="customerText">
+        <item name="android:textColor">@color/amberMaterial900</item>
+        <item name="android:fontFamily">@font/pacifico</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+
+    <style name="sellerText">
+        <item name="android:textSize">56sp</item>
+        <item name="android:fontFamily">@font/pacifico</item>
+        <item name="android:textColor">@color/colorSellerPrimary</item>
+    </style>
 </resources>
