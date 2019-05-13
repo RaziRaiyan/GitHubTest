@@ -11,16 +11,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toast.makeText(this,"This is toast for checking conflict",Toast.LENGTH_SHORT).show();
     }
 
-	
-	public  void testMethod1(){
-		Toast.makeText(getApplicationContext(),"Hello this is the test method-1",Toast.LENGTH_SHORT);
-    	}
+    public void method1(){
+        Toast.makeText(this,"This is raiyan's method1",Toast.LENGTH_SHORT).show();
+    }
 
-
-	public  void testMethod2(){
-		Toast.makeText(getApplicationContext(),"Hello this is the test method-2",Toast.LENGTH_SHORT);
-    	}
 
 }
