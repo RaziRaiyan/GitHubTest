@@ -23,10 +23,8 @@
                 android:elevation="30dp"
                 android:layout_marginLeft="32dp"
                 android:backgroundTint="@color/colorTransparent"
-                android:text="Seller"
-                android:fontFamily="@font/pacifico"
-                android:textColor="@color/colorWhite"
-                android:textSize="56sp" />
+                style="@style/sellerText"
+                android:text="Seller"/>
 
         <View
             android:layout_width="match_parent"
@@ -45,10 +43,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
         android:layout_marginEnd="8dp"
-        android:textSize="56sp"
-        android:textColor="@color/colorPrimary"
-        android:fontFamily="@font/pacifico"
-        android:text="Consumer"
+        android:text="Customer"
+        style="@style/customerText"
         diagonal:layout_constraintBottom_toBottomOf="@+id/diagonalLayout"
         diagonal:layout_constraintEnd_toEndOf="@+id/diagonalLayout" />
 

@@ -8,4 +8,8 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="materialBlueGrey900">#263238</color>
     <color name="colorTransparent">#00000000</color>
+
+    <color name="colorSellerPrimary">#00c853</color>
+    <color name="colorCustomerPrimary">#ff6d00</color>
+    <color name="amberMaterial900">#ff6f00</color>
 </resources>
