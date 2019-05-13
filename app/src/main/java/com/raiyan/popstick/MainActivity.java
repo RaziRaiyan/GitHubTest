@@ -36,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
         String testPull = "Creating pull request to be merged with master 3";
     }
 
+    public void pullRequestTest4(){
+        String testPull = "Creating pull request to be merged with master 4";
+    }
+
 	public  void testMethod33(){
 		Toast.makeText(getApplicationContext(),"Hello this is the test method-33",Toast.LENGTH_SHORT);
 
