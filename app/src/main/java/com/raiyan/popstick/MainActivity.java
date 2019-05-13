@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toast.makeText(this,"This is toast for checking conflict",Toast.LENGTH_SHORT).show();
+
+        Toast.makeText(this,"This is toast for checking conflict",Toast.LENGTH_SHORT).show();
     }
 
     public void method1(){
