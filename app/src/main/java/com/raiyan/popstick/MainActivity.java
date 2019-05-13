@@ -30,13 +30,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void newChangeInMaster(){
     	String test = "This is new change in master";
-	}
-
+    }
 
 	public void pullRequestTest3(){
         String testPull = "Creating pull request to be merged with master 3";
     }
-
 
 	public  void testMethod33(){
 		Toast.makeText(getApplicationContext(),"Hello this is the test method-33",Toast.LENGTH_SHORT);
