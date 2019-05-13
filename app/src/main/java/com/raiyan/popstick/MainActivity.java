@@ -44,6 +44,10 @@ public class MainActivity extends AppCompatActivity {
         String rebase = "Rebasing ";
     }
 
+    public void rebasing2(){
+        String rebase = "Rebase";
+    }
+
 	public  void testMethod33(){
 		Toast.makeText(getApplicationContext(),"Hello this is the test method-33",Toast.LENGTH_SHORT);
 
