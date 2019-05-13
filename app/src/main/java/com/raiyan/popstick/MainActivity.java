@@ -20,7 +20,9 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,"This is raiyan's method1",Toast.LENGTH_SHORT).show();
     }
 
-
+    public void pullRequestTest(){
+        String testPull = "Creating pull request to be merged with master";
+    }
 
 
 	public  void testMethod33(){
