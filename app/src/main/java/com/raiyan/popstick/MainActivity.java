@@ -11,7 +11,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 	
-	public  void testMethod(){
-		Toast.makeText(getApplicationContext(),"Hello this is the test method",Toast.LENGTH_SHORT);
+	public  void testMethod1(){
+		Toast.makeText(getApplicationContext(),"Hello this is the test method-1",Toast.LENGTH_SHORT);
+    	}
+
+
+	public  void testMethod2(){
+		Toast.makeText(getApplicationContext(),"Hello this is the test method-2",Toast.LENGTH_SHORT);
     	}
 }
