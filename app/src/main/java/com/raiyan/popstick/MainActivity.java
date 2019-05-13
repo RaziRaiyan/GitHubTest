@@ -2,6 +2,7 @@ package com.raiyan.popstick;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -9,6 +10,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+    }
 
 	
 	public  void testMethod1(){
@@ -21,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
     	}
 
 
+
 	public  void testMethod33(){
 		Toast.makeText(getApplicationContext(),"Hello this is the test method-33",Toast.LENGTH_SHORT);
     	}
+
 }

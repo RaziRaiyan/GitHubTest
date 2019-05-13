@@ -13,6 +13,10 @@ public class ChoseSellerCustomer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chose_seller_consumer);
     }
+
+    public void testMethod(){
+        Toast.makeText(this,"This is raiyan",Toast.LENGTH_SHORT).show();
+    }
 }
 
 
